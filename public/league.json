@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Anthony",
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 2,
+        "name": "Mike",
+        "wins": 1,
+        "losses": 2,
+        "draws": 0,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 3,
+        "name": "Graydon",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 4,
+        "name": "Jeremy",
+        "wins": 2,
+        "losses": 1,
+        "draws": 0,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 5,
+        "name": "Jimmy",
+        "wins": 0,
+        "losses": 3,
+        "draws": 0,
+        "attendance": 1,
+        "bonus": 1
+    },
+    {
+        "id": 6,
+        "name": "Pete",
+        "wins": 0,
+        "losses": 0,
+        "draws": 3,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 7,
+        "name": "Jeff",
+        "wins": 1,
+        "losses": 1,
+        "draws": 1,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 8,
+        "name": "Kirk",
+        "wins": 2,
+        "losses": 0,
+        "draws": 1,
+        "attendance": 1,
+        "bonus": 0
+    },
+    {
+        "id": 9,
+        "name": "Ben",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "attendance": 0,
+        "bonus": 0
+    },
+    {
+        "id": 10,
+        "name": "Simon",
+        "wins": 0,
+        "losses": 0,
+        "draws": 3,
+        "attendance": 1,
+        "bonus": 1
+    },
+    {
+        "id": 11,
+        "name": "Noel",
+        "wins": 0,
+        "losses": 3,
+        "draws": 0,
+        "attendance": 1,
+        "bonus": 1
+    },
+    {
+        "id": 12,
+        "name": "Stonee",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "attendance": 0,
+        "bonus": 0
+    }
+]

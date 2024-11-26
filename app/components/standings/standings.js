@@ -23,18 +23,20 @@ export default function Standings() {
                         <th>Rank</th>
                         <th>Name</th>
                         <th>Record</th>
+                        <th>Bonus Points</th>
                         <th>League Points</th>
                     </tr>
                 </thead>
                 <tbody>
                     {standings
-                        .sort((a, b) => ((b.wins * 3) + b.draws) - ((a.wins * 3) + b.draws))
+                        .sort((a, b) => (((b.wins * 2) + b.attendance + b.bonus) - ((a.wins * 2) + a.attendance + a.bonus)))
                         .map((player, index) => (
                             <tr key={player.id}>
                                 <td>{index + 1}</td>
                                 <td>{player.name}</td>
                                 <td>{player.wins + "-" + player.losses + "-" + player.draws}</td>
-                                <td>{(player.wins * 3) + player.draws}</td>
+                                <td>{player.attendance + player.bonus}</td>
+                                <td>{(player.wins * 2) + player.attendance + player.bonus}</td>
                             </tr>
                         ))}
                 </tbody>
